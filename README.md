@@ -31,7 +31,7 @@ For support and questions, you can reach out to our team at 2102006@bcas.edu.du.
 
 ## Privacy Policy
 
-For information about how we handle your data and privacy, please refer to our [Privacy Policy](https://syllabizeapp.com/privacy).
+For information about how we handle your data and privacy, please refer to our [Privacy Policy](PrivacyPolicy.md).
 
 ## License
 
