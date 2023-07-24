@@ -35,7 +35,7 @@ For information about how we handle your data and privacy, please refer to our [
 
 ## License
 
-The Syllabize App is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+The Syllabize App is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
 ## Credits
 
