@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "727391881346",
+    "project_id": "syllabize-akm",
+    "storage_bucket": "syllabize-akm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727391881346:android:e1c6cdbe752cdb8364cc9b",
+        "android_client_info": {
+          "package_name": "com.akm.syllabize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727391881346-gibmucjmeqdr7njm8qopgr2jl8uujobj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akm.syllabize",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "727391881346-v0e0d9enphv7312n5693dn7t8u7bedkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoucCJmzupm3DTBphMANnkHaV844BDb8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727391881346-v0e0d9enphv7312n5693dn7t8u7bedkv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "727391881346-3rrmb1igjds89v8gl9k3g467hed3abgt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.akm.syllabize"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
