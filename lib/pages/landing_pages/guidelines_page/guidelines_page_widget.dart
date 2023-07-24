@@ -1,6 +1,9 @@
+import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'guidelines_page_model.dart';
@@ -13,10 +16,38 @@ class GuidelinesPageWidget extends StatefulWidget {
   _GuidelinesPageWidgetState createState() => _GuidelinesPageWidgetState();
 }
 
-class _GuidelinesPageWidgetState extends State<GuidelinesPageWidget> {
+class _GuidelinesPageWidgetState extends State<GuidelinesPageWidget>
+    with TickerProviderStateMixin {
   late GuidelinesPageModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  final animationsMap = {
+    'iconOnPageLoadAnimation': AnimationInfo(
+      trigger: AnimationTrigger.onPageLoad,
+      effects: [
+        RotateEffect(
+          curve: Curves.easeInOut,
+          delay: 0.ms,
+          duration: 1000.ms,
+          begin: 0.0,
+          end: 1.0,
+        ),
+      ],
+    ),
+    'textOnPageLoadAnimation': AnimationInfo(
+      trigger: AnimationTrigger.onPageLoad,
+      effects: [
+        MoveEffect(
+          curve: Curves.easeInOut,
+          delay: 0.ms,
+          duration: 650.ms,
+          begin: Offset(-100.0, 0.0),
+          end: Offset(0.0, 0.0),
+        ),
+      ],
+    ),
+  };
 
   @override
   void initState() {
@@ -49,7 +80,7 @@ class _GuidelinesPageWidgetState extends State<GuidelinesPageWidget> {
                   fontSize: 36.0,
                   fontWeight: FontWeight.bold,
                 ),
-          ),
+          ).animateOnPageLoad(animationsMap['textOnPageLoadAnimation']!),
           actions: [],
           centerTitle: false,
           elevation: 2.0,
@@ -66,7 +97,7 @@ class _GuidelinesPageWidgetState extends State<GuidelinesPageWidget> {
                   Icons.rule_folder,
                   color: FlutterFlowTheme.of(context).secondaryText,
                   size: 100.0,
-                ),
+                ).animateOnPageLoad(animationsMap['iconOnPageLoadAnimation']!),
               ),
             ],
           ),
