@@ -27,7 +27,7 @@ To get started with the Syllabize App, simply download it from the Google Play S
 
 We welcome your feedback and suggestions! If you encounter any issues or have ideas for improvement, please feel free to open an issue on this GitHub repository.
 
-For support and questions, you can reach out to our team at support@syllabizeapp.com.
+For support and questions, you can reach out to our team at 2102006@bcas.edu.du.ac.in.
 
 ## Privacy Policy
 
