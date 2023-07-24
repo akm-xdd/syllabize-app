@@ -48,7 +48,7 @@ We take reasonable measures to protect your personal information from unauthoriz
 
 ## Children's Privacy
 
-The App is not intended for children under the age of 13. We do not knowingly collect or maintain personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will promptly delete such information from our records.
+The App is not intended for children under the age of 13. We do not knowingly collect or maintain personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will promptly delete such information from our records. Although no such sensitive information is demanded by the app, it is better if you contact us to get it deleted before taking any legal route.
 
 ## Changes to this Privacy Policy
 
